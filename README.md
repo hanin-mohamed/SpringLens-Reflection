@@ -9,7 +9,7 @@ Each section here explains the *concepts, scenarios, and caveats*. Each
 code package shows those ideas in action.
 
 
-## 0) Why Reflection? (The Story)
+##  Why Reflection?
 
 Imagine you're writing a framework.
 You don't know which classes your users will write, what constructors
@@ -63,7 +63,7 @@ flowchart LR
 
 ------------------------------------------------------------------------
 
-## 2) Methods: See, Describe, Invoke
+## Methods: See, Describe, Invoke
 ### See code here: [Reflect Methods ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a10_methods)
 
 ### Key ideas
@@ -95,7 +95,7 @@ flowchart LR
 
 ------------------------------------------------------------------------
 
-## 3) Fields: List, Read, Write (static, private, generics, inheritance, final)
+## Fields: List, Read, Write (static, private, generics, inheritance, final)
 
 ### See code here: [Reflect Fields ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a20_fields)
 
@@ -144,7 +144,7 @@ sequenceDiagram
 
 ------------------------------------------------------------------------
 
-## 4) Constructors: Discover & Instantiate
+## Constructors: Discover & Instantiate
 
 ### See code here: [Reflect Constructors ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a30_constructors)
 
@@ -173,17 +173,17 @@ sequenceDiagram
     exception.
 
 ``` mermaid
-flowchart TD
+flowchart LR
   A[Class<?>] --> B[getDeclaredConstructors]
   B --> C[match signature]
-  C --> D[setAccessible(true) if private]
-  D --> E[newInstance(args...)]
+  C --> D[call setAccessible if private]
+  D --> E[newInstance with args]
   E --> F[Fresh object]
 ```
 
 ------------------------------------------------------------------------
 
-## 5) Why Frameworks Love This
+##  Why Frameworks Love This
 
 Put together: 
 1. **Scan classes** at runtime. 
@@ -213,10 +213,8 @@ sequenceDiagram
 
 -   Reflection is powerful, but slower than direct calls. Use it for
     **flexibility**, not for every-day business logic.
--   Always wrap reflective code in clear utilities --- don't spread it
-    everywhere.
+    
 -   Remember: what you gain is runtime adaptability; what you lose is
     compile-time safety.
 
-> Keep the repo open while you read: run, tweak, break, and fix. That's
-> how the ideas become second nature.
+
