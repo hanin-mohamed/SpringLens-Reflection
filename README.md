@@ -64,7 +64,7 @@ flowchart LR
 ------------------------------------------------------------------------
 
 ## 2) Methods: See, Describe, Invoke
-###  Code [Reflect Methods ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a10_methods)
+### See code here: [Reflect Methods ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a10_methods)
 
 ### Key ideas
 
@@ -97,7 +97,7 @@ flowchart LR
 
 ## 3) Fields: List, Read, Write (static, private, generics, inheritance, final)
 
-###  Code [Reflect Methods ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a20_fields)
+### See code here: [Reflect Fields ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a20_fields)
 
 
 ### Discovering
@@ -146,7 +146,7 @@ sequenceDiagram
 
 ## 4) Constructors: Discover & Instantiate
 
-###  Code [Reflect Methods ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a30_constructors)
+### See code here: [Reflect Constructors ](https://github.com/hanin-mohamed/SpringLens-Reflection/tree/main/Reflection/src/main/java/com/springlens/reflection/a30_constructors)
 
 
 ### Discovering
