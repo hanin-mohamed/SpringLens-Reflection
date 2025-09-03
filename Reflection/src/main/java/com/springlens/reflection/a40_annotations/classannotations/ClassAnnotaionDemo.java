@@ -1,4 +1,4 @@
-package com.springlens.reflection.a40_annotations.classannotaions;
+package com.springlens.reflection.a40_annotations.classannotations;
 
 public class ClassAnnotaionDemo {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.springlens.reflection.a40_annotations.methodannotaions;
+package com.springlens.reflection.a40_annotations.methodannotations;
 
 import java.lang.reflect.Method;
 import java.util.*;

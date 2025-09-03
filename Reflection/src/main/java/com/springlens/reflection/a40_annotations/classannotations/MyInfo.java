@@ -1,4 +1,4 @@
-package com.springlens.reflection.a40_annotations.classannotaions;
+package com.springlens.reflection.a40_annotations.classannotations;
 
 
 import java.lang.annotation.*;

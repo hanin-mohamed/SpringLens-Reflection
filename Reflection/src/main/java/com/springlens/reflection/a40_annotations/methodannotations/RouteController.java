@@ -1,4 +1,4 @@
-package com.springlens.reflection.a40_annotations.methodannotaions;
+package com.springlens.reflection.a40_annotations.methodannotations;
 
 public class RouteController {
 
