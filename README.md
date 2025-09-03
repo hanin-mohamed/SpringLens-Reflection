@@ -243,7 +243,7 @@ flowchart TD
 
 ---
 
-### Class Annotations — Declaring Roles
+### Class Annotations - Declaring Roles
 
 **General Idea**  
 Class-level annotations mark the role or category of a class.
@@ -274,7 +274,7 @@ flowchart LR
 
 ---
 
-### Method Annotations — Declaring Actions
+### Method Annotations - Declaring Actions
 
 **General Idea**  
 Method-level annotations declare that a method has a special behavior.
@@ -309,7 +309,7 @@ flowchart LR
 
 ---
 
-### Field Annotations — Declaring Dependencies
+### Field Annotations - Declaring Dependencies
 
 **General Idea**  
 Field-level annotations can signal that a dependency should be injected.
@@ -348,7 +348,7 @@ flowchart LR
 
 ---
 
-### Parameter Annotations — Declaring Bindings
+### Parameter Annotations - Declaring Bindings
 
 Parameters can carry metadata to bind values.
 
